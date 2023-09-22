@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   bbb-chatgpt:
-    image: manishkatyan/bigbluebutton-chatgpt:v1.0.1
+    image: hunben/bigbluebutton-chatgpt:v1.0.1
     env_file:
       - .env
     container_name: bbb-chatgpt

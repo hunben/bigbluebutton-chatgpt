@@ -123,7 +123,7 @@ async function handleChatGPTCall(data) {
 
     // if prompt is help send help message
     if (prompt === "help") {
-      const newMsg = `Utiliza promts adecuados para chatGPT: \n
+      const newMsg = `Utiliza un promt para chatGPT: \n
       
            `;
 

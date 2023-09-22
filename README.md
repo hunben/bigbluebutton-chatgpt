@@ -43,7 +43,7 @@ For more prompts, please refer to [this document](https://classplusplus.com/chat
 It hardly takes few minues to install ChatGPT app for BigBlueButton, as detailed below: 
 
 ```sh
-git clone https://github.com/AsyncWeb/bigbluebutton-chatgpt.git
+git clone https://github.com/hunben/bigbluebutton-chatgpt.git
 
 cd bigbluebutton-chatgpt
 

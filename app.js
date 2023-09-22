@@ -123,14 +123,9 @@ async function handleChatGPTCall(data) {
 
     // if prompt is help send help message
     if (prompt === "help") {
-      const newMsg = `You may use prompts such as the followings to get meaningful response from chatGPT: \n
-      1. @${chatGPTCommand} Create a quiz with 5 multiple choice questions that assess students' understanding of [concept being taught]. \n
-      2. @${chatGPTCommand} Find the bug with this code: [post code below] \n
-      3. @${chatGPTCommand} What exactly does this regex do? rege(x(es)?|xps?). \n
-      4. @${chatGPTCommand} Describe [topic of your choice] in detail. \n
-      5. @${chatGPTCommand} Please provide a definition for the medical term 'tachycardia'. \n
-      <a href="https://classplusplus.com/chatgpt/" target="_blank">Click here</a> for more ChatGPT prompts. \n
-      `;
+      const newMsg = `Utiliza promts adecuados para chatGPT: \n
+      
+           `;
 
       sendMessage({
         publisher,
